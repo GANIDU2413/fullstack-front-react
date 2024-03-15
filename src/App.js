@@ -17,7 +17,6 @@ function App() {
           <Route excat path='/adduser' element={<AddUser/>}></Route>
           <Route excat path='/edituser/:id' element={<EditUser/>}></Route>
           <Route excat path='/viewuser/:id' element={<ViewUser/>}></Route>
-
         </Routes>
       </Router>
     </div>
